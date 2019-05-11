@@ -1,0 +1,49 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbars {
+  background-color: rgb(173, 173, 173);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+  a {
+    color: #fff;
+  }
+}
+
+.project-table tr {
+  cursor: pointer;
+}
+
+#app, body {
+  background-color: $primary-bck;
+}
+
+.navbar-dark {
+  background-color: $nav-dark;
+
+  a {
+    color: $primary-dark;
+  }
+}
+
+.btn-primary {
+  background-color: $nav-dark;
+  color: $primary-bck;
+  border-color: $primary-dark;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+  color: $nav-dark;
+  background-color: $primary-dark;
+  border-color: $nav-dark;
+}
+
+.btn-link {
+  color: $primary-acct;
+}
